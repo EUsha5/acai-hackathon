@@ -1,0 +1,136 @@
+
+body {
+  width: 100%;
+  background-color: #b1f8f2;
+}
+.fwidgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+.bottomSection{
+color: rgb(255,255,255);
+background-color: rgb(59,59,59);
+}
+
+@font-face {
+  font-family: DeliciousRoman;
+  src: url(/Delicious-Roman.otf);
+  }
+
+.nav-nav>li {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.berries{
+  background-image: url('images/maxresdefault.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  margin-top:1vw;
+  padding-bottom: 2vw;
+}
+
+.h1, h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 152px;
+}
+
+
+.kids-acai{
+  background-image: url("images/1-acai-bowl-3-kids.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.purple-cream{
+  background-image: url("images/purple-ice-cream.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  height: 5vw;
+}
+
+.nav {
+  background-color: #b1f8f2;
+  height: 5vw;
+  border-color: #b1f8f2;
+  padding-left: 1vw;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-nav {
+  background-color: #b1f8f2;
+  height: 5vw;
+  border-color: #b1f8f2;
+  padding-left: 1vw;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+/* .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.brands {
+  width: 20vw;
+}
+
+.btn-recipe {
+  margin-top: 2vw;
+  margin-left: 20vw;
+}
+
+button{
+  background-color: #470453;
+  border-radius: 20px;
+  width: 12vw;
+  height: 3vw;
+
+}
+
+p{
+  padding: 25px;
+  text-align: center;
+}
+
+.btn-history{
+  margin-left: 20vw;
+}
+
+.history {
+  text-align: center;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+hr {
+  background-color: #b1f8f2;
+  color: #470453;
+}
+
+.row {
+  border-bottom: 2px solid #470453;
+}
